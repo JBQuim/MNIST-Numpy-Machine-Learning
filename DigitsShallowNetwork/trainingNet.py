@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 
 
 
-with np.load('mnist.npz') as data:
+with np.load('Dataset/mnist.npz') as data:
     trainingImages = data["training_images"]
     trainingLabels = data["training_labels"]
     testImages = data["test_images"]
